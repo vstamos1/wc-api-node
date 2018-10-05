@@ -161,7 +161,6 @@ WooCommerceAPI.prototype._request = function(method, endpoint, data, callback) {
     encoding: this.encoding,
     timeout: this.timeout,
     headers: {
-      'User-Agent': 'WooCommerce API Client-Node.js/' + this.classVersion,
       'Accept': 'application/json'
     }
   };
